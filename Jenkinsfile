@@ -32,7 +32,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo "Deploy artifacts to a production server or environment"
+                eco "Deploy artifacts to a production server or environment"
                 //sh 'your-deployment-command-or-script.sh'
             }
         }
