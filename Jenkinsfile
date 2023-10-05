@@ -39,7 +39,7 @@ pipeline {
 
         stage('Monitor') {
             steps {
-                echo "Perform monitoring and verification tasks"
+                eco "Perform monitoring and verification tasks"
                 //sh 'your-monitoring-command-or-script.sh'
             }
         }
